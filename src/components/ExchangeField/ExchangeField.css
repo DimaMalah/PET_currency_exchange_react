@@ -1,0 +1,41 @@
+.exchange-field{
+	display: flex;
+	flex: 1 1 auto;
+}
+.exchange-field__container{
+	margin: 50px auto;
+	background-color:#06161f;
+	border: none;
+}
+.exchange-field__btn{
+	color: #f87f51;
+	margin-bottom: 50px;
+}
+.exchange-field__btn:hover{
+	color: #9a4727;
+}
+.select{
+	background-color:#133d54;
+	color: #f87f51;
+	outline: none;
+	border: none;
+	padding: 5px ;
+	opacity: inherit;
+}
+.input{
+	max-width: 150px;
+	background-color: #133d54;
+	color: #cbcad2;
+	padding: 5px 5px 4px;
+	border: none;
+	outline: none;
+}
+.currency-container{
+	display: flex;
+	flex-direction: row;
+}
+.equality{
+	color: #cbcad2;
+	display: block;
+	margin: 4px 10px;
+}

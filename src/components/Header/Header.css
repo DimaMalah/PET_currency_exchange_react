@@ -1,0 +1,67 @@
+.header{
+	background-color: #133d54;
+	min-height: 70px;
+	padding: 0 0 0 0 ;
+	display: flex;
+	align-items: center;
+}
+
+.header__container{
+	display: flex;
+	min-width: 100%;
+	justify-content: space-between;
+}
+
+.header__logo{
+	animation: forHeart 2s infinite none ;
+	align-self: baseline;
+}
+
+.header__icons{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.header__icon{
+	color: #cbcad2;
+	padding: 10px;
+	/* animation-name: beat;
+	animation-iteration-count: infinite;
+	animation-duration: 5s; */
+}
+
+.header__icon-span{
+	font-family: Roboto_Regular, sans-serif;
+	margin-left: 10px;
+	color: #f8844f;
+}
+
+/* @keyframes beat{
+	0% {
+		background-color: #00000085;
+	}
+	50% {
+		background-color: #3d3d3dd4 ;
+		border-color: #000;
+		border-radius: 0px;
+		
+	}
+	100% {
+		background-color: #00000085;
+	}
+}
+
+@keyframes forHeart {
+	0% {
+		color: rgb(1, 49, 145) ;
+		font-size: 40px;
+	}
+	50%{
+		color: rgba(155, 155, 0, 1);
+		font-size: 30px;
+	}
+	100%{
+		font-size: 40px;
+		color:  rgba(1, 49, 145, 0.5);
+	}
+} */
